@@ -8,7 +8,7 @@ app.get('/', async (req, res) => {
     res.send(result);
 });
 
-//request is used when we are getting api from db to node
-//response is used when we are responding from server to api 
+//request is used when we are getting api from db to server
+//response is used when we are sending from server to api 
 
 app.listen(5000);
